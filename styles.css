@@ -1,0 +1,173 @@
+body{
+  margin: 0;
+  padding: 0;
+  background:#000000;
+}
+.BIDV .logobidv{
+  width: 20%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+.MB .logomb{
+  width: 20%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+.Momo .logomomo{
+  width: 20%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+.Title{
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000; 
+}
+.BIDV{
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000; 
+}
+.MB{
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000; 
+}
+.Momo{
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000; 
+}
+.Title-neon >.txttitle {
+  color: #ffffff;
+  background:#000000;
+  font-size:100px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+.BIDV-neon>.txtbidv {
+  color: #ffffff;
+  background:#000000;
+  font-size:100px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+.MB-neon>.txtmb {
+  color: #ffffff;
+  background:#000000;
+  font-size:100px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+.Momo-neon>.txtmomo {
+  color: #ffffff;
+  background:#000000;
+  font-size:100px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+.Title-neon>.txttitle::before{
+  content: 'Tự giác đi các bạn :>>';
+  position: absolute;
+  mix-blend-mode: difference;
+  filter: blur(3px);
+}
+.BIDV-neon>.txtbidv::before {
+  content: '62010001166603';
+  position: absolute;
+  mix-blend-mode: difference;
+  filter: blur(3px);
+}
+.MB-neon>.txtmb::before {
+  content: '0935804312';
+  position: absolute;
+  mix-blend-mode: difference;
+  filter: blur(3px);
+}
+.Momo-neon>.txtmomo::before {
+  content: '0935804312';
+  position: absolute;
+  mix-blend-mode: difference;
+  filter: blur(3px);
+}
+.BIDV>.BIDV-neon {
+  display:inline-flex;
+  filter: brightness(200%);
+  overflow: hidden;
+}
+.MB>.MB-neon {
+  display:inline-flex;
+  filter: brightness(200%);
+  overflow: hidden;
+}
+.Momo>.Momo-neon {
+  display:inline-flex;
+  filter: brightness(200%);
+  overflow: hidden;
+}
+.BIDV-neon>.gbidv{ 
+  background: linear-gradient(114.5793141156962deg, rgba(6, 227, 250,1) 4.927083333333334%,rgba(229, 151, 64,1) 97.84374999999999%);
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height:100%;
+  mix-blend-mode: multiply;
+}
+.MB-neon>.gmb{ 
+  background: linear-gradient(113.9452775409818deg, rgba(10, 83, 122,1) 5.6173914268264005%,rgba(129, 209, 201,1) 96.53379006614418%);
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height:100%;
+  mix-blend-mode: multiply;
+}
+.Momo-neon>.gmomo{ 
+  background: linear-gradient(113.9452775409818deg, rgba(244, 72, 105,1) 5.6173914268264005%,rgba(159, 1, 234,1) 96.53379006614418%);
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height:100%;
+  mix-blend-mode: multiply;
+}
+.Title-neon>.gtitle{ 
+  background: linear-gradient(113.9452775409818deg, rgba(248, 104, 92,1) 5.6173914268264005%,rgba(25, 64, 169,1) 96.53379006614418%);
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height:100%;
+  mix-blend-mode: multiply;
+}
+.dodge {
+  background: radial-gradient(circle,white,black 35%) center / 25% 25%;
+  position: absolute;
+  top:-100%;
+  left:-100%;
+  right:0;
+  bottom:0;
+  mix-blend-mode: color-dodge;
+  animation: dodge-area 3s linear infinite;
+}
+@keyframes dodge-area {
+  to {
+      transform: translate(50%,50%);
+  }
+}
