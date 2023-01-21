@@ -3,7 +3,17 @@
 <head>
 <title>Tự giác lì xì đi</title>
     <style>
-    @media not all and (min-resolution:.001dpcm) { @supports (-webkit-appearance:none) and (stroke-color:transparent) { .selector { property:value; } } }
+    @media screen and (-webkit-min-device-pixel-ratio:0) { 
+    /* Safari and Chrome */
+    .flex-direction-nav-featured a{
+        margin-top: 4%;
+    } 
+
+    /* Safari only override */
+    ::i-block-chrome,.flex-direction-nav-featured a{
+        margin-top: 5%;
+    } 
+}
 body{
   margin: 0;
   padding: 0;
