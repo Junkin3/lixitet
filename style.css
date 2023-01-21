@@ -3,19 +3,19 @@ body{
   padding: 0;
   background:#000000;
 }
-.logobidv{
+.BIDV .logobidv{
   width: 20%;
   height: auto;
   align-items: center;
   justify-content: center;
 }
-.logomb{
+.MB .logomb{
   width: 20%;
   height: auto;
   align-items: center;
   justify-content: center;
 }
-.logomomo{
+.Momo .logomomo{
   width: 20%;
   height: auto;
   align-items: center;
@@ -49,7 +49,7 @@ body{
   justify-content: center;
   background: #000000; 
 }
-.txttitle {
+.Title-neon >.txttitle {
   color: #ffffff;
   background:#000000;
   font-size:100px;
@@ -57,7 +57,7 @@ body{
   font-family: 'Times New Roman', Times, serif;
   text-transform: uppercase;
 }
-.txtbidv {
+.BIDV-neon>.txtbidv {
   color: #ffffff;
   background:#000000;
   font-size:100px;
@@ -65,7 +65,7 @@ body{
   font-family: 'Times New Roman', Times, serif;
   text-transform: uppercase;
 }
-.txtmb {
+.MB-neon>.txtmb {
   color: #ffffff;
   background:#000000;
   font-size:100px;
@@ -73,7 +73,7 @@ body{
   font-family: 'Times New Roman', Times, serif;
   text-transform: uppercase;
 }
-.txtmomo {
+.Momo-neon>.txtmomo {
   color: #ffffff;
   background:#000000;
   font-size:100px;
@@ -81,46 +81,46 @@ body{
   font-family: 'Times New Roman', Times, serif;
   text-transform: uppercase;
 }
-.txttitle::before{
+.Title-neon>.txttitle::before{
   content: 'Tự giác đi các bạn :>>';
   position: absolute;
   mix-blend-mode: difference;
   filter: blur(3px);
 }
-.txtbidv::before {
+.BIDV-neon>.txtbidv::before {
   content: '62010001166603';
   position: absolute;
   mix-blend-mode: difference;
   filter: blur(3px);
 }
-.txtmb::before {
+.MB-neon>.txtmb::before {
   content: '0935804312';
   position: absolute;
   mix-blend-mode: difference;
   filter: blur(3px);
 }
-.txtmomo::before {
+.Momo-neon>.txtmomo::before {
   content: '0935804312';
   position: absolute;
   mix-blend-mode: difference;
   filter: blur(3px);
 }
-.BIDV-neon {
+.BIDV>.BIDV-neon {
   display:inline-flex;
   filter: brightness(200%);
   overflow: hidden;
 }
-.MB-neon {
+.MB>.MB-neon {
   display:inline-flex;
   filter: brightness(200%);
   overflow: hidden;
 }
-.Momo-neon {
+.Momo>.Momo-neon {
   display:inline-flex;
   filter: brightness(200%);
   overflow: hidden;
 }
-.gbidv{ 
+.BIDV-neon>.gbidv{ 
   background: linear-gradient(114.5793141156962deg, rgba(6, 227, 250,1) 4.927083333333334%,rgba(229, 151, 64,1) 97.84374999999999%);
   position: absolute;
   top: 0;
@@ -129,7 +129,7 @@ body{
   height:100%;
   mix-blend-mode: multiply;
 }
-.gmb{ 
+.MB-neon>.gmb{ 
   background: linear-gradient(113.9452775409818deg, rgba(10, 83, 122,1) 5.6173914268264005%,rgba(129, 209, 201,1) 96.53379006614418%);
   position: absolute;
   top: 0;
@@ -138,7 +138,7 @@ body{
   height:100%;
   mix-blend-mode: multiply;
 }
-.gmomo{ 
+.Momo-neon>.gmomo{ 
   background: linear-gradient(113.9452775409818deg, rgba(244, 72, 105,1) 5.6173914268264005%,rgba(159, 1, 234,1) 96.53379006614418%);
   position: absolute;
   top: 0;
@@ -147,7 +147,7 @@ body{
   height:100%;
   mix-blend-mode: multiply;
 }
-.gtitle{ 
+.Title-neon>.gtitle{ 
   background: linear-gradient(113.9452775409818deg, rgba(248, 104, 92,1) 5.6173914268264005%,rgba(25, 64, 169,1) 96.53379006614418%);
   position: absolute;
   top: 0;
