@@ -1,7 +1,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-    body {
-        color:green; /* on Safari and Chrome  */
-    }
+  body {
+      color:green; /* on Safari and Chrome  */
+  }
 }
 body{
   margin: 0;
@@ -11,47 +11,83 @@ body{
 .BIDV .logobidv{
   width: 20%;
   height: auto;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .MB .logomb{
   width: 20%;
   height: auto;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .Momo .logomomo{
   width: 20%;
   height: auto;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .Title{
   height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: #000000; 
 }
 .BIDV{
   height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: #000000; 
 }
 .MB{
   height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: #000000; 
 }
 .Momo{
   height: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: #000000; 
 }
 .Title-neon >.txttitle {
@@ -90,42 +126,56 @@ body{
   content: 'Tự giác đi các bạn :>>';
   position: absolute;
   mix-blend-mode: difference;
-  filter: blur(3px);
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
 }
 .BIDV-neon>.txtbidv::before {
   content: '62010001166603';
   position: absolute;
   mix-blend-mode: difference;
-  filter: blur(3px);
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
 }
 .MB-neon>.txtmb::before {
   content: '0935804312';
   position: absolute;
   mix-blend-mode: difference;
-  filter: blur(3px);
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
 }
 .Momo-neon>.txtmomo::before {
   content: '0935804312';
   position: absolute;
   mix-blend-mode: difference;
-  filter: blur(3px);
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
 }
 .BIDV>.BIDV-neon {
+  display:-webkit-inline-box;
+  display:-ms-inline-flexbox;
   display:inline-flex;
-  filter: brightness(200%);
+  -webkit-filter: brightness(200%);
+          filter: brightness(200%);
   overflow: hidden;
 }
 .MB>.MB-neon {
+  display:-webkit-inline-box;
+  display:-ms-inline-flexbox;
   display:inline-flex;
-  filter: brightness(200%);
+  -webkit-filter: brightness(200%);
+          filter: brightness(200%);
   overflow: hidden;
 }
 .Momo>.Momo-neon {
+  display:-webkit-inline-box;
+  display:-ms-inline-flexbox;
   display:inline-flex;
-  filter: brightness(200%);
+  -webkit-filter: brightness(200%);
+          filter: brightness(200%);
   overflow: hidden;
 }
 .BIDV-neon>.gbidv{ 
+  background: -o-linear-gradient(335.421deg, rgba(6, 227, 250,1) 4.927083333333334%,rgba(229, 151, 64,1) 97.84374999999999%); 
   background: linear-gradient(114.5793141156962deg, rgba(6, 227, 250,1) 4.927083333333334%,rgba(229, 151, 64,1) 97.84374999999999%);
   position: absolute;
   top: 0;
@@ -135,6 +185,7 @@ body{
   mix-blend-mode: multiply;
 }
 .MB-neon>.gmb{ 
+  background: -o-linear-gradient(336.055deg, rgba(10, 83, 122,1) 5.6173914268264005%,rgba(129, 209, 201,1) 96.53379006614418%); 
   background: linear-gradient(113.9452775409818deg, rgba(10, 83, 122,1) 5.6173914268264005%,rgba(129, 209, 201,1) 96.53379006614418%);
   position: absolute;
   top: 0;
@@ -144,6 +195,7 @@ body{
   mix-blend-mode: multiply;
 }
 .Momo-neon>.gmomo{ 
+  background: -o-linear-gradient(336.055deg, rgba(244, 72, 105,1) 5.6173914268264005%,rgba(159, 1, 234,1) 96.53379006614418%); 
   background: linear-gradient(113.9452775409818deg, rgba(244, 72, 105,1) 5.6173914268264005%,rgba(159, 1, 234,1) 96.53379006614418%);
   position: absolute;
   top: 0;
@@ -153,6 +205,7 @@ body{
   mix-blend-mode: multiply;
 }
 .Title-neon>.gtitle{ 
+  background: -o-linear-gradient(336.055deg, rgba(248, 104, 92,1) 5.6173914268264005%,rgba(25, 64, 169,1) 96.53379006614418%); 
   background: linear-gradient(113.9452775409818deg, rgba(248, 104, 92,1) 5.6173914268264005%,rgba(25, 64, 169,1) 96.53379006614418%);
   position: absolute;
   top: 0;
@@ -162,17 +215,4 @@ body{
   mix-blend-mode: multiply;
 }
 .dodge {
-  background: radial-gradient(circle,white,black 35%) center / 25% 25%;
-  position: absolute;
-  top:-100%;
-  left:-100%;
-  right:0;
-  bottom:0;
-  mix-blend-mode: color-dodge;
-  animation: dodge-area 3s linear infinite;
-}
-@keyframes dodge-area {
-  to {
-      transform: translate(50%,50%);
-  }
-}
+  background: -o-radial-gradient(circle,white,black 35%) center / 25% 25
