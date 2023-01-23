@@ -99,13 +99,13 @@ body{
   filter: blur(3px);
 }
 .MB-neon>.txtmb::before {
-  content: '0935804312';
+  content: '123456789';
   position: absolute;
   mix-blend-mode: difference;
   filter: blur(3px);
 }
 .Momo-neon>.txtmomo::before {
-  content: '0935804312';
+  content: '123456789';
   position: absolute;
   mix-blend-mode: difference;
   filter: blur(3px);
